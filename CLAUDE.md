@@ -14,6 +14,8 @@
 3. 검증이 완료되면, 그 다음 단계를 또 검증한다.
 4. Claude Code에서 실행할 수 없는 검증이 생기면, 작업을 멈추고 알린다.
 
+같은 행동이 3번쯤 반복되면, 뭔가 잘못되고 있을 가능성이 높다. 멈추고 현재 상태를 점검하자.
+
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
 > 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
