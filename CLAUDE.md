@@ -1,4 +1,4 @@
-목표로 가는 최단경로를 탐색하고 최단경로로 목표에 도달한다.
+원칙: 목표로 가는 최단경로를 탐색하고 최단경로로 목표에 도달한다.
 
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
 > 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
