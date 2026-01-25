@@ -1,8 +1,5 @@
 원칙: 목표로 가는 최단경로를 탐색하고 최단경로로 목표에 도달한다.
 
-> 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
-> 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
-
 # 코드 작성 규칙
 
 1. 구현 코드를 작성하기 전, 테스트 코드를 먼저 작성한다.
@@ -16,3 +13,7 @@
 2. Claude Code에서 실행할 수 있는 검증에 대해서 먼저 아이디어를 검증한다.
 3. 검증이 완료되면, 그 다음 단계를 또 검증한다.
 4. Claude Code에서 실행할 수 없는 검증이 생기면, 작업을 멈추고 알린다.
+
+---
+> 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
+> 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
