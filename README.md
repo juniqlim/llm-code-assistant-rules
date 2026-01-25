@@ -1,5 +1,7 @@
 # LLM Code Assistant Rules
 
+> **목표로 가는 최단경로를 탐색하고 최단경로로 목표에 도달한다.**
+
 LLM 기반 코드 어시스턴트(Claude Code, Cursor, Copilot 등)에 적용할 수 있는 규칙 모음입니다.
 
 ## 주요 규칙
