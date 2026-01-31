@@ -15,13 +15,14 @@ LLM 기반 코드 어시스턴트(Claude Code, Cursor, Copilot 등)에 적용할
 ### 계획/문제 해결
 - 단계별 검증: 각 단계를 실제로 검증한 후 다음 단계 진행
 - 실행 불가능한 검증이 필요하면 작업 중단 후 알림
+- 같은 행동 3번 반복 시 멈추고 현재 상태 점검
 
 ## 사용법
 
 ### Claude Code
 `~/.claude/CLAUDE.md`에 복사하거나 심볼릭 링크 생성:
 ```bash
-ln -sf /path/to/CLAUDE.md ~/.claude/CLAUDE.md
+ln -sf ~/llm-code-assistant-rules/claude/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
 ### Codex CLI
