@@ -16,6 +16,10 @@
 
 같은 행동이 3번쯤 반복되면, 뭔가 잘못되고 있을 가능성이 높다. 멈추고 현재 상태를 점검하자.
 
+# 웹 콘텐츠 가져오기
+
+WebFetch 실패 시 → `curl -sL "https://web.archive.org/web/2025/URL"`
+
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
 > 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
