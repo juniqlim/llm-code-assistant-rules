@@ -22,4 +22,4 @@
 
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
-> 로컬 경로: ~/llm-code-assistant-rules/AGENTS.md
+> 로컬 경로: ~/llm-code-assistant-rules/codex/AGENTS.md

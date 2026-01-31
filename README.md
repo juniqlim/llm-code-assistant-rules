@@ -27,7 +27,7 @@ ln -sf /path/to/CLAUDE.md ~/.claude/CLAUDE.md
 ### Codex CLI
 `AGENTS.md`를 Codex 작업 디렉터리에 복사하거나 심볼릭 링크 생성:
 ```bash
-ln -sf /path/to/AGENTS.md /Users/juniq/codex/AGENTS.md
+ln -sf /path/to/codex/AGENTS.md /Users/juniq/codex/AGENTS.md
 ```
 
 ### 기타 도구
