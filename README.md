@@ -24,6 +24,12 @@ LLM 기반 코드 어시스턴트(Claude Code, Cursor, Copilot 등)에 적용할
 ln -sf /path/to/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
+### Codex CLI
+`AGENTS.md`를 Codex 작업 디렉터리에 복사하거나 심볼릭 링크 생성:
+```bash
+ln -sf /path/to/AGENTS.md /Users/juniq/codex/AGENTS.md
+```
+
 ### 기타 도구
 각 도구의 시스템 프롬프트 또는 설정 파일에 규칙 내용을 추가하세요.
 
