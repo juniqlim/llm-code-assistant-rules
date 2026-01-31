@@ -22,4 +22,4 @@ WebFetch 실패 시 → `curl -sL "https://web.archive.org/web/2025/URL"`
 
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
-> 로컬 경로: ~/llm-code-assistant-rules/CLAUDE.md
+> 로컬 경로: ~/llm-code-assistant-rules/claude/CLAUDE.md
