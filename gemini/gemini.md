@@ -16,9 +16,13 @@
 
 같은 행동이 3번쯤 반복되면, 뭔가 잘못되고 있을 가능성이 높다. 멈추고 현재 상태를 점검하자.
 
+# 한글번역 규칙
+
+번역해달라 요구시 원문 핵심 단어를 (원문) 형태로 병기하고, 필요한 부연설명을 생략하지 않는다.
+
 # 웹 콘텐츠 가져오기
 
-web_fetch 실패 시 → google_web_search로 대체 검색하거나 `curl -sL "https://web.archive.org/web/2025/URL"`을 사용한다.
+web_fetch 실패 시 → ~/develop/code/juniqlim/llm-code-assistant-rules/web-fetch-fallback.md 참고
 
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
