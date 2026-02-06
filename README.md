@@ -38,12 +38,12 @@ LLM 기반 코드 어시스턴트(Claude Code, Codex CLI, Gemini CLI 등)에 적
 
 ### Claude Code
 ```bash
-ln -sf ~/develop/code/juniqlim/llm-code-assistant-rules/claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -sf ~/j/llm-code-assistant-rules/claude/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
 ### Codex CLI
 ```bash
-ln -sf ~/develop/code/juniqlim/llm-code-assistant-rules/codex/AGENTS.md ~/codex/AGENTS.md
+ln -sf ~/j/llm-code-assistant-rules/codex/AGENTS.md ~/codex/AGENTS.md
 ```
 
 ### Gemini CLI

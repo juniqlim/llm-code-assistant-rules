@@ -22,8 +22,8 @@
 
 # 웹 콘텐츠 가져오기
 
-WebFetch 실패 시 → ~/develop/code/juniqlim/llm-code-assistant-rules/web-fetch-fallback.md 참고
+WebFetch 실패 시 → ~/j/llm-code-assistant-rules/web-fetch-fallback.md 참고
 
 ---
 > 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
-> 로컬 경로: ~/develop/code/juniqlim/llm-code-assistant-rules/claude/CLAUDE.md
+> 로컬 경로: ~/j/llm-code-assistant-rules/claude/CLAUDE.md
