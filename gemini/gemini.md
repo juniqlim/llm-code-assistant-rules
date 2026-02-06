@@ -25,4 +25,4 @@
 web_fetch 실패 시 → ~/j/llm-code-assistant-rules/web-fetch-fallback.md 참고
 
 ---
-> 이 파일은 https://github.com/juniqlim/llm-code-assistant-rules 에서 관리됩니다.
+> 소스: ~/j/llm-code-assistant-rules/gemini/gemini.md
