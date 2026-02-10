@@ -28,12 +28,7 @@ with urllib.request.urlopen(req) as resp:
 
 ### X/Twitter
 
-단일 트윗:
-```bash
-curl -sL "https://publish.twitter.com/oembed?url=트윗URL"
-```
-
-타래(thread) 전체 읽기 - UnrollNow (로그인 불필요, SSR이라 urllib로 파싱 가능):
+UnrollNow (로그인 불필요, SSR이라 urllib로 파싱 가능. 단일 트윗/타래 모두 가능):
 ```bash
 python3 -c "
 import urllib.request, re, html
