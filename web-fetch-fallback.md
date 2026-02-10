@@ -28,8 +28,24 @@ with urllib.request.urlopen(req) as resp:
 
 ### X/Twitter
 
+단일 트윗:
 ```bash
 curl -sL "https://publish.twitter.com/oembed?url=트윗URL"
+```
+
+타래(thread) 전체 읽기 - UnrollNow (로그인 불필요, SSR이라 urllib로 파싱 가능):
+```bash
+python3 -c "
+import urllib.request, re, html
+url = 'https://unrollnow.com/status/트윗ID'
+req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+with urllib.request.urlopen(req) as resp:
+    body = resp.read().decode('utf-8')
+    for m in re.findall(r'<(?:article|section)[^>]*>(.*?)</(?:article|section)>', body, re.DOTALL):
+        text = html.unescape(re.sub(r'<[^>]+>', ' ', m)).strip()
+        if len(text) > 10:
+            print(text)
+"
 ```
 
 ### 네이버 증권 (모바일)
