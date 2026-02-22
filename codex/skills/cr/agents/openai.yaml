@@ -1,0 +1,7 @@
+policy:
+  allow_implicit_invocation: false
+
+interface:
+  display_name: "CR"
+  short_description: "Copy last user prompt"
+  default_prompt: "Use $cr to copy my previous prompt to clipboard."
