@@ -6,10 +6,11 @@ WebFetch 실패 시 아래 순서로 시도한다.
 
 React, Vue, Next.js 등 모던 웹앱 대부분은 CSR이라 urllib/WebFetch로는 빈 HTML 껍데기만 온다. 대응 방법:
 
-1. **API 직접 호출** (권장) - 브라우저 개발자도구 Network 탭에서 데이터 API URL을 찾아 호출. CSR 페이지도 데이터는 결국 API에서 가져오므로, URL만 알면 해결되는 경우가 많다.
-2. **헤드리스 브라우저** (Selenium, Playwright) - JS를 실제 실행. 범용적이지만 무겁고 느림.
+1. **Lightpanda** (권장) - `~/lightpanda fetch --dump markdown URL`로 JS 렌더링 후 마크다운 추출. Chromium 없이 경량으로 동작.
+2. **API 직접 호출** - 브라우저 개발자도구 Network 탭에서 데이터 API URL을 찾아 호출. CSR 페이지도 데이터는 결국 API에서 가져오므로, URL만 알면 해결되는 경우가 많다.
+3. **헤드리스 브라우저** (Selenium, Playwright) - JS를 실제 실행. 범용적이지만 무겁고 느림.
 
-urllib 결과가 거의 비어있으면 CSR을 의심하고, API 직접 호출을 시도할 것.
+urllib 결과가 거의 비어있으면 CSR을 의심하고, Lightpanda → API 직접 호출 순으로 시도할 것.
 
 ## 1. Python urllib로 가져오기
 
