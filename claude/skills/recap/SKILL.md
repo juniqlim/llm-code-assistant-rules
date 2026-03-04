@@ -35,7 +35,7 @@ for i, f in enumerate(files[1:6], 1):
                 if isinstance(content, list):
                     content = " ".join(c.get("text","") for c in content if isinstance(c, dict) and c.get("type") == "text")
                 content = content.strip()
-                if content and not content.startswith("[Request interrupted") and not content.startswith("<"):
+                if content and not content.startswith("[Request interrupted") and not content.startswith("<") and not content.startswith("Base directory for this skill"):
                     first_msg = content[:80]
                     break
     print(f"{i}. [{ts}] {first_msg}")
@@ -63,7 +63,7 @@ with open(target) as f:
             if isinstance(content, list):
                 content = " ".join(c.get("text","") for c in content if isinstance(c, dict) and c.get("type") == "text")
             content = content.strip()
-            if content and not content.startswith("[Request interrupted") and not content.startswith("<"):
+            if content and not content.startswith("[Request interrupted") and not content.startswith("<") and not content.startswith("Base directory for this skill"):
                 users.append(content[:500])
 
 for msg in users[-3:]:
