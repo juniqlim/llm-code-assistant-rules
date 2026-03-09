@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recap"
+  short_description: "Recover recent Codex session context"
+  default_prompt: "Use $recap to recover the recent conversation context for this project."
