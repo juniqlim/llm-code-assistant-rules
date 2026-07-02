@@ -43,7 +43,7 @@
 
 # 웹 콘텐츠 가져오기
 
-`web.run` 실패 시 → 반드시 `~/j/llm-code-assistant-rules/web-fetch-fallback.md`를 읽고 그 방법을 따른다. 자체 판단으로 다른 방법을 먼저 시도하지 않는다.
+`web.run` 실패 시 → 반드시 `~/j/llm-code-assistant-rules/web-fetch-fallback.md`를 읽고 그 방법을 따른다. 파일이 없으면 find로 찾는다.
 
 ---
 > 소스: ~/j/llm-code-assistant-rules/codex/AGENTS.md

@@ -39,7 +39,7 @@
 
 # 웹 콘텐츠 가져오기
 
-web_fetch 실패 시 → ~/j/llm-code-assistant-rules/web-fetch-fallback.md 참고
+web_fetch 실패 시 → ~/j/llm-code-assistant-rules/web-fetch-fallback.md 참고. 파일이 없으면 find로 찾을 것.
 
 ---
 > 소스: ~/j/llm-code-assistant-rules/gemini/gemini.md
